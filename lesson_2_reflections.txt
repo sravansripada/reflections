@@ -11,3 +11,7 @@ staging area can be used to add the specific files that we want to commit, so it
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 if i need to make some changes to the code which are kind of experimental in nature, i may not want to do it in the same master node as this does not form the main part of my code as yet. hence it is lot convenient to create branches. i can later merge the changes if i feel this is something which needs to be incorporated to the main code.
+
+How do the diagrams help you visualize the branch structure?
+having diagrams in place will help us understand the parents of each commit and at which commit was actually initiated. it also makes visualizing merge easier
+
