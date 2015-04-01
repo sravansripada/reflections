@@ -8,3 +8,6 @@ a repo may have multiple files which may not be logically related to one another
 
 How can you use the staging area to make sure you have one commit per logical change?
 staging area can be used to add the specific files that we want to commit, so it is not required to commit all the files at a time. we choose to decide what should be a part of each commit hence can logically bucket the commits. files can be added to staging area by using git add command and they can be pushed using git commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+if i need to make some changes to the code which are kind of experimental in nature, i may not want to do it in the same master node as this does not form the main part of my code as yet. hence it is lot convenient to create branches. i can later merge the changes if i feel this is something which needs to be incorporated to the main code.
