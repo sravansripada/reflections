@@ -16,4 +16,12 @@ How do the diagrams help you visualize the branch structure?
 having diagrams in place will help us understand the parents of each commit and at which commit was actually initiated. it also makes visualizing merge easier
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-if two branches are merged then the common lines of code between the two programs will be retained, deletion in one of the branches will be ignored and additions in respective branches will be added to the final commit after merge. in the form of a diagram it is easy to visualize where exactly the commits have branched out. parents of each commit can be easily understood and we can rationalize as to why some of the commits are not appearing when git log is executed. its also easy to note which commits can never be reached from depending on where the head is
+if two branches are merged then the common lines of code between the two programs will be retained, deletion in one of the branches will be ignored and additions in respective branches will be added to the final commit after merge. in the form of a diagram it is easy to visualize where exactly the commits have branched out. parents of each commit can be easily understood and we can rationalize as to why some of the commits are not appearing when git log is executed. its also easy to note which commits can never be reached from depending on where the head is.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros
+1. when two different branches are working on different features of a program, it becomes easier to merge the two files automatically. essentially, when the work is being performed on the code is very different, this feature is handy.
+2. it tracks all the commits from where branching started
+cons
+1. git compares two versions purely based on the lines. two versions could be doing the same thing but git may identify thme being different
+2. most of the time it is important to resolve merge conflicts which is as good as merging the files manually
