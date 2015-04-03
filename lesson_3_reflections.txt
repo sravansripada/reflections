@@ -19,3 +19,9 @@ when there are different features that i am working on which cannot be included 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 storing known state of remote locally will allow us to understand where exactly commits of the remote have changed as compared to the the local after the last sync
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+i would use codeskulptor or similar softwares. use sharepoint to save the codes and let the other person update. git would be easier as the versions are also tracked. there is a learning curve associated with git which is the hard side of it, on the other hand using a shared drive is pretty straight forward way of doing it
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+whenever there is a need to collaborate with others before updating the master, i would create a new branch. Committing directly to master is lot easier without having to go through the ordeal of merging branch etc. creating a new branch would help in getting the changes approved before committing it to master
