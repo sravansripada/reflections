@@ -3,3 +3,9 @@ whenever i am collaborating with people on projects i would want to use a remote
 this helps me in sharing code with others who can use my code for their projects or provide suggestions
 to make the code better
 this can be used as a way of showcasing some of the cool projects that i am working on
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+there may be some changes that you may have made to suit the code more for sharing with wider audience, it may not make sense to incorporate all 
+those changes in local version
+come of the files may be deleted from remote as you may deem them unappropriate for public, you may not want to see those chages in local
+
