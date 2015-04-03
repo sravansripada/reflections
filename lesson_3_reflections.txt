@@ -16,3 +16,6 @@ branches: branches allow you to create label to commits and further commits will
 When i would like to take someone else's git repository and make changes to it without affecting the original one, i would fork that repository. 
 if i would like to make changes to a forked repository or a newly created repository on github, i may want to bring it to the local for which i need to clone the repository to my local machine
 when there are different features that i am working on which cannot be included in the working version, i create a branch leaving the working version unattended so that i can merge the changes back to my master once all the changes have been completed 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+storing known state of remote locally will allow us to understand where exactly commits of the remote have changed as compared to the the local after the last sync
